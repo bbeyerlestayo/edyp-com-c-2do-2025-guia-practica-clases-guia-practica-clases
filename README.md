@@ -27,17 +27,28 @@ furgon3 = Camion("DEF456", "Volvo", 2000, 2021)
 furgon4 = Camion("ABC123", "Mercedes", 1000, 2020)
 
 print(furgon1 == furgon2)
+#True
 print(furgon1 is furgon2)
+#True
 print(furgon3 == furgon4)
+#False
 print(furgon3 is furgon4)
+#False
 print(furgon1 == furgon4) 
+#False
 ```
 
 b. Modificá el código dado para que la comparación de dos objetos de la clase Camion devuelva True cuando todos sus atributos sean iguales.
 
+
 c. ¿Qué atributo hace único a nuestros objetos? Identificá el atributo que hace único al objeto Camion y modificá el código para que la comparación de dos objetos de la clase Camion devuelva True cuando ese atributo sea igual.
+#La patente
+
+
 
 d. Si dos personas tienen el mismo DNI, entonces... ¡Son la misma persona! ¿Cómo evitarías asignar el mismo DNI a dos personas distintas? Siguiendo esta analogía, adaptá el código anterior para el caso de los camiones.
+
+
 
 f. Creá un pequeño menú que te permita:
 
@@ -51,6 +62,7 @@ f. Creá un pequeño menú que te permita:
 En este ejercicio vamos a modelar una computadora, creando la clase `Computadora` para ello.
 
 Primero, pensá un rato en todas las características que mirarías al momento de comprar una. ¿Cómo llamamos a esas características en el paradigma de la programación orientada a objetos?
+#Atributos
 
 Luego de pensarlo, continuá con la consigna.
 
